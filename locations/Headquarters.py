@@ -1,4 +1,4 @@
 import time
 
 def story():
-    print("story1")
+    print("story4")
