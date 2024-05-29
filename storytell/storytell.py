@@ -3,7 +3,8 @@ import sys
 
 from locations.NY import story as NYs
 from locations.Asgard import story as Asgards
-from locations.Planet import story as Planets
+from locations.Vormir import story as Vormirs
+from locations.Morag import story as Morags
 from locations.Headquarters import story as Headquarters
 
 
@@ -12,13 +13,13 @@ def background():
     time.sleep(1)
     print("You, will act as an Avenger and save thw universe!!!")
     time.sleep(1)
-    input("But hold on, are we saving the universe???(Yes or No)")
+    return input("But hold on, are we saving the universe???(Yes or No)")
 
 def end():
-    print()
+    print("Bye")
 
 def storytell():
-    locats = [NYs, Asgards, Planets, Headquarters]
+    locats = [NYs, Asgards, Vormirs, Morags, Headquarters]
     
     save = background()
     print(save)
@@ -34,4 +35,4 @@ def storytell():
         loc()
     
     end()
-    
+    sys.exit()
