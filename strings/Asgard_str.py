@@ -16,6 +16,8 @@ def rocket():
     print("You ran away, and found the Reality Stone with your nose. It\'s in the guard\'s hand!")
     slp()
     print("You jumped up, got the Reality Stone, then you ran away with twenty guards chasing you!")
+    slp()
+    print("You found Thor and his mother then went back to the headquarters wtih Thor.")
 
 def thor():
     print("You saw your mother, but you\'re so nevious that you stay at there like a wood")
@@ -37,3 +39,12 @@ def stay():
     slp()
     print("Hope to see you next time!")
     sys.exit()
+
+def leave():
+    print("You decided to leave and said, \"Wait! Let me try to find my hammer! \"")
+    slp()
+    print("ZOOOOOOOOOOOOOOOOOOM! The hammer flew back into your hand!")
+    slp()
+    print("\"Haha! Haha! It\'s here! I\'m still allow to have it! My hammer!\" You said.")
+    slp()
+    print("After it , you and Rocket went straight back to the headquarters.")
