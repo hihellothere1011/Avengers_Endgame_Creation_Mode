@@ -1,7 +1,7 @@
 # A personal Avengers story just for you!
 In this project, we will make a story together
 
-![The image](https://cdn.europosters.eu/image/750/avengers-endgame-whatever-it-takes-i74250.jpg){width=200 height=300}
+<img src="https://cdn.europosters.eu/image/750/avengers-endgame-whatever-it-takes-i74250.jpg" alt="The image" width="200">
 
 ## The best parts!!!
 * Choose your Avenger and get into the universe of the Avengers! 
